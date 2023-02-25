@@ -14,7 +14,7 @@ return {
         Hint = '#3592c4',
         Accent = '#659c6b',
         Namespace = '#afbf7e',
-        Note = '#659c6b',
+        Note = '#589df6',
         Trace = '#659c6b',
         Keyword = '#fb7385',
         Property = '#9cdcfe',
