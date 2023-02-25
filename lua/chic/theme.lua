@@ -166,7 +166,7 @@ local function Theme(v)
     hl['@method'] = { fg = v.Colors.Method }
     hl['@method.call'] = { fg = v.Colors.MethodCall }
 
-    hl['@namespace'] = { fg = v.Colors.Default }
+    hl['@namespace'] = { fg = v.Colors.Namespace }
 
     hl['@float'] = { fg = v.Colors.Important }
     hl['@number'] = { fg = v.Colors.Number }
