@@ -13,6 +13,7 @@ return {
         Info = '#659c6b',
         Hint = '#3592c4',
         Accent = '#659c6b',
+        Default = '#abb2bf',
         Note = '#659c6b',
         Trace = '#659c6b',
         Keyword = '#fb7385',
