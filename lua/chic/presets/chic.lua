@@ -21,6 +21,7 @@ return {
         String = '#e5bc66',
         Escape = '#d69d85',
         Number = '#ce95b8',
+        Builtin = '#cc7832'
     },
     Foreground = {
         default = '#abb2bf',

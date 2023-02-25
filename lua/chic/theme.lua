@@ -89,7 +89,7 @@ local function Theme(v)
 	hl.DiagnosticUnderlineWarn = { sp = hl.DiagnosticWarn.fg, undercurl = true, bg = 'NONE' }
 	hl.DiagnosticVirtualTextWarn = { fg = hl.DiagnosticWarn.fg, bg = 'NONE' }
 
-	hl.Boolean = { fg = v.Colors.Error, italic = true }
+	hl.Boolean = { fg = v.Colors.Builtin, italic = true }
 	hl.Character = { fg = v.Colors.Info }
 	hl.Comment = { fg = v.Foreground.muted }
 	hl.SpecialComment = { fg = v.Foreground.muted }
@@ -127,7 +127,7 @@ local function Theme(v)
 	hl.Typedef = { fg = v.Colors.Caution }
 	hl.Underlined = { underdotted = true }
 
-	hl['@boolean'] = { fg = v.Colors.Error, italic = true }
+	hl['@boolean'] = { fg = v.Colors.Builtin, italic = true }
 	hl['@character'] = { fg = v.Colors.Hint }
 	hl['@character.special'] = { fg = v.Colors.Hint }
 
@@ -180,15 +180,10 @@ local function Theme(v)
 	hl['@property'] = { fg = v.Colors.Property }
 	hl['@property.toml'] = { fg = v.Colors.Hint }
 
-	hl['@punctuation.delimiter'] = { fg = v.Foreground.muted }
+	hl['@punctuation.delimiter'] = { fg = v.Foreground.default }
 	hl['@punctuation.bracket'] = { fg = hl['@punctuation.delimiter'].fg }
-	hl['@punctuation.delimiter.python'] = { fg = v.Foreground.emphasis }
-	hl['@punctuation.delimiter.yaml'] = { fg = v.Colors.Note }
-	hl['@punctuation.special'] = { fg = v.Colors.Hint }
-	hl['@punctuation.special.markdown'] = { fg = v.Colors.Danger, bold = false }
 
 	hl['@repeat'] = { fg = v.Colors.Trace }
-	hl['@repeat.python'] = { fg = v.Colors.Error }
 
 	hl['@string'] = { fg = v.Colors.String }
 	hl['@string.escape'] = { fg = v.Colors.Escape }
@@ -217,7 +212,7 @@ local function Theme(v)
 	hl['@text.uri'] = { fg = v.Colors.Note, underdotted = true }
 
 	hl['@type'] = { fg = v.Colors.Caution }
-	hl['@type.builtin'] = { fg = v.Colors.Note, italic = true }
+	hl['@type.builtin'] = { fg = v.Colors.Builtin, italic = true }
 	hl['@type.qualifier'] = { fg = v.Colors.Error }
 	hl['@type.definition'] = { fg = v.Colors.Caution }
 	hl['@storageclass'] = { fg = v.Colors.Error }
