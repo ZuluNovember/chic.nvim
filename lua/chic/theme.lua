@@ -100,7 +100,7 @@ local function Theme(v)
 	hl.Define = { fg = v.Colors.Trace, italic = true }
 	hl.Delimiter = { fg = v.Foreground.muted }
 	hl.Float = { fg = v.Colors.Important }
-	hl.Function = { fg = v.Colors.Trace }
+	hl.Function = { fg = v.Colors.Method }
 	hl.Identifier = { fg = v.Foreground.default }
 	hl.Include = { fg = v.Colors.Error }
 	hl.Keyword = { fg = v.Colors.Keyword, italic = true }
@@ -141,13 +141,7 @@ local function Theme(v)
 
 	hl['@field'] = { fg = v.Colors.Property }
 
-	hl['@function'] = { fg = v.Colors.Hint }
-	hl['@function.css'] = { fg = v.Colors.Note }
-	hl['@function.builtin'] = { fg = v.Colors.Note, italic = true }
-	hl['@function.call'] = { fg = v.Colors.Note }
-	hl['@function.macro'] = { fg = v.Colors.Note }
-	hl['@exception.rust'] = { fg = v.Colors.Error }
-	hl['@function.macro.commonlisp'] = { fg = v.Colors.Error }
+	hl['@function'] = { fg = v.Colors.Method }
 
 	hl['@preproc'] = { fg = v.Colors.Hint }
 	hl['@interface'] = { fg = v.Colors.Caution }
