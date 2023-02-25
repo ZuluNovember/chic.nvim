@@ -19,6 +19,7 @@ return {
         Keyword = '#fb7385',
         Property = '#9cdcfe',
         Method = '#98c379',
+        MethodCall = '#b09d79',
         String = '#e5bc66',
         Escape = '#d69d85',
         Number = '#ce95b8',

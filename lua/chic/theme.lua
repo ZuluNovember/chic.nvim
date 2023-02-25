@@ -164,7 +164,7 @@ local function Theme(v)
     hl['@label.toml'] = { fg = v.Colors.Hint }
 
     hl['@method'] = { fg = v.Colors.Method }
-    hl['@method.call'] = { fg = v.Colors.Method }
+    hl['@method.call'] = { fg = v.Colors.MethodCall }
 
     hl['@namespace'] = { fg = v.Colors.Default }
 
