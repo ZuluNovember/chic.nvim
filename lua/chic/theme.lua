@@ -144,7 +144,7 @@ local function Theme(v)
     hl['@function'] = { fg = v.Colors.Method }
 
     hl['@preproc'] = { fg = v.Colors.Hint }
-    hl['@interface'] = { fg = v.Colors.Caution }
+    hl['@interface'] = { fg = v.Colors.Interface }
 
     hl['@conditional'] = { fg = v.Colors.Keyword }
 
@@ -327,7 +327,7 @@ local function Theme(v)
     hl.CmpItemKindClass = { fg = v.Colors.Caution }
     hl.CmpItemKindValue = { fg = v.Colors.Danger }
     hl.CmpItemKindEnum = { fg = v.Colors.Caution }
-    hl.CmpItemKindInterface = { fg = v.Colors.Caution }
+    hl.CmpItemKindInterface = { fg = v.Colors.Interface }
     hl.CmpItemKindMethod = { fg = v.Colors.Method }
     hl.CmpItemKindUnit = { fg = v.Colors.Error }
     hl.CmpItemKindConstant = { fg = v.Foreground.emphasis }

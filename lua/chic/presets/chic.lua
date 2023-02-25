@@ -8,7 +8,7 @@ return {
         Error = '#ff4e4e',
         Danger = '#eda726',
         Warn = '#756d56',
-        Caution = '#756d56',
+        Caution = '#D69D85',
         Important = '#3592c4',
         Info = '#659c6b',
         Hint = '#3592c4',
@@ -24,6 +24,7 @@ return {
         Builtin = '#cc7832',
         Type = '#6fafbd',
         Class = '#61afef',
+        Interface = '#379AEF'
     },
     Foreground = {
         default = '#abb2bf',
