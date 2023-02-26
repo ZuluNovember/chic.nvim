@@ -110,7 +110,7 @@ local function Theme(v)
     hl.Operator = { fg = v.Colors.Danger }
     hl.PreCondit = { fg = v.Colors.Error }
     hl.PreProc = { fg = v.Colors.Hint }
-    hl.Repeat = { fg = v.Colors.Trace }
+    hl.Repeat = { fg = v.Colors.Keyword }
     hl.Special = { fg = v.Colors.Hint }
     hl.SpecialChar = { fg = v.Colors.Hint }
     hl.SpecialKey = { fg = v.Colors.Hint }
@@ -181,10 +181,8 @@ local function Theme(v)
     hl['@property.toml'] = { fg = v.Colors.Hint }
 
     hl['@punctuation'] = { fg = v.Foreground.default }
-    hl['@punctuation.delimiter'] = { fg = v.Foreground.default }
-    hl['@punctuation.bracket'] = { fg = hl['@punctuation.delimiter'].fg }
 
-    hl['@repeat'] = { fg = v.Colors.Trace }
+    hl['@repeat'] = { fg = v.Colors.Keyword }
 
     hl['@string'] = { fg = v.Colors.String }
     hl['@string.escape'] = { fg = v.Colors.Escape }
