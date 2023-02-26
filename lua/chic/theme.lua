@@ -180,6 +180,7 @@ local function Theme(v)
     hl['@property'] = { fg = v.Colors.Property }
     hl['@property.toml'] = { fg = v.Colors.Hint }
 
+    hl['@punctuation'] = { fg = v.Foreground.default }
     hl['@punctuation.delimiter'] = { fg = v.Foreground.default }
     hl['@punctuation.bracket'] = { fg = hl['@punctuation.delimiter'].fg }
 
